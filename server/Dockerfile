@@ -1,3 +1,3 @@
-FROM golang:1.8.1
+FROM golang:1.23rc1
 ADD geekmarks-server /
 ENTRYPOINT ["/geekmarks-server"]
